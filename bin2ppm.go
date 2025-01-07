@@ -12,13 +12,13 @@ import (
 )
 
 func usage() {
-	fmt.Println(`Usage: bin2ppm [-d] [x z]
+	fmt.Println(`Usage: bin2ppm [-d] [x y]
 
 Options:
   -d        Decode PPM to binary
 
 Arguments:
-  x z       Dimensions of the image (default: 32 32) for encoding
+  x y       Dimensions of the image (default: 32 32) for encoding
 
 Examples:
   Encode: cat input.bin | bin2ppm > output.ppm
